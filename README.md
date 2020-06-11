@@ -1,24 +1,3 @@
 # vue-101
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+After a few years in React.js and a sprinkle of Angular, now officially entering the world of Vue.js. Foundation and self training.
