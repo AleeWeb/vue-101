@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar />
-    <h2>Bare start</h2>
+    <div class="container">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -14,5 +16,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

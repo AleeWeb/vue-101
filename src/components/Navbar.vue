@@ -1,11 +1,13 @@
 <template>
-      <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Vue 101</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
+  <nav>
+    <div class="nav-wrapper">
+      <div class="container">
+        <router-link to="/" class="brand-logo">Vue 101</router-link>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 </template>
